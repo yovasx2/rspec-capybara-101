@@ -34,9 +34,9 @@ In order to execute this project you need to install:
 
 * [Ruby 2.2.3](https://www.ruby-lang.org/es/news/2015/08/18/ruby-2-2-3-released/)
 
-* [Chrome browser](https://www.google.com.mx/chrome/browser/desktop/)
-
   You can check this with `ruby -v`
+
+* [Chrome browser](https://www.google.com.mx/chrome/browser/desktop/)
 
 <a name="run-project"/>
 ## Run project
