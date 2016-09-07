@@ -6,7 +6,7 @@ require 'byebug'
 
 # loading page object files
 page_paths  = File.join(Dir.pwd, 'spec', 'pages', '**', '*.rb')
-Dir.glob(page_paths).each { |f| require f }
+Dir.glob(page_paths).each { |file| require file }
 
 # overrides selenium's driver to use chrome browser
 Capybara.register_driver :selenium do |app|
