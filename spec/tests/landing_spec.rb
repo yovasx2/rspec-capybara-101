@@ -46,35 +46,9 @@ describe 'Hi5 web site' do
         expect(page).to have_content('Meet people on the go.')
       end
 
-      it 'clicks Jobs button successfully' do
-        @footer.click_jobs
-        expect(page).to have_content('Where big ideas meet opportunity.')
-      end
-
-      it 'clicks Advertise button successfully' do
-        @footer.click_advertise
-        switch_to_window(windows.last)
-        expect(current_url).to eql('http://x.tagstat.com/pdf/Advertising_on_hi5.pdf')
-      end
-
-      it 'clicks Privacy button successfully' do
-        @footer.click_privacy
-        expect(page).to have_content('PRIVACY POLICY')
-      end
-
-      it 'clicks Terms button successfully' do
-        @footer.click_terms
-        expect(page).to have_content('Terms of Service')
-      end
-
-      it 'clicks Report Abuse button successfully' do
-        @footer.click_report_abuse
-        expect(page).to have_content('Online Safety & Security')
-      end
-
-      it 'clicks Support button successfully' do
-        @footer.click_support
-        expect(page).to have_content(' Powered by Zendesk')
+      it 'clicks Company button successfully' do
+        @footer.click_company
+        expect(page).to have_content('A reverence for')
       end
     end
   end
