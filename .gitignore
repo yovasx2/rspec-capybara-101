@@ -52,3 +52,4 @@ build-iPhoneSimulator/
 # Mine
 .DS_Store
 .idea
+.byebug_history
