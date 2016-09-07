@@ -55,6 +55,8 @@ describe 'Hi5 web site' do
         @footer.click_advertise
         switch_to_window(windows.last)
         expect(current_url).to eql('http://x.tagstat.com/pdf/Advertising_on_hi5.pdf')
+        current_window.close
+        switch_to_window(windows.first)
       end
 
       it 'clicks Privacy button successfully' do
