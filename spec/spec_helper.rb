@@ -2,9 +2,10 @@ require 'rspec'
 require 'capybara/rspec'
 require 'capybara/dsl'
 require 'selenium-webdriver'
+require 'byebug'
 
 # loading page object files
-page_paths  = File.join(Dir.pwd, 'spec', 'pages', '*.rb')
+page_paths  = File.join(Dir.pwd, 'spec', 'pages', '**', '*.rb')
 Dir.glob(page_paths).each { |f| require f }
 
 # overrides selenium's driver to use chrome browser
