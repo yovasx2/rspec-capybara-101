@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'capybara',             '~> 2.8.1'
 gem 'rake',                 '~> 10.4.2'
