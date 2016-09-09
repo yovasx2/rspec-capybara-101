@@ -82,4 +82,4 @@ You can contribute to this project in many forms:
 <a name="license"/>
 ## License
 
-[GNU Affero General Public License v3.0](http://choosealicense.com/licenses/agpl-3.0/)
+[MIT License](http://choosealicense.com/licenses/mit/)
