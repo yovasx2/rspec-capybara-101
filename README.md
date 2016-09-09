@@ -39,7 +39,7 @@ In order to execute this project you need to install:
 
   You can check this with `ruby -v`
 
-* [Chrome browser](https://www.google.com.mx/chrome/browser/desktop/)
+* [Firefox browser](https://www.mozilla.org/en-US/firefox/new/)
 
 <a name="run-project"/>
 ## Run project
