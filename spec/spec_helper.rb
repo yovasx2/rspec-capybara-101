@@ -1,3 +1,7 @@
+# frozen-string-literal: true
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
+
 require 'rspec'
 require 'capybara/rspec'
 require 'capybara/dsl'
@@ -8,22 +12,16 @@ require 'byebug'
 page_paths  = File.join(Dir.pwd, 'spec', 'pages', '**', '*.rb')
 Dir.glob(page_paths).each { |file| require file }
 
-# overrides selenium's driver to use chrome browser
-Capybara.register_driver :selenium do |app|
-  caps = Selenium::WebDriver::Remote::Capabilities.chrome
-  Capybara::Selenium::Driver.new(app, {detach: false,
-                                       browser: :chrome,
-                                       desired_capabilities: caps})
+Capybara.register_driver :firefox do |app|
+  Capybara::Selenium::Driver.new(app, browser: :firefox)
 end
 
-# selecting the driver
-Capybara.default_driver = :selenium
+Capybara.default_driver = :firefox
+Capybara.app_host = 'http://www.hi5.com/'
+Capybara.default_max_wait_time = 5
 
 RSpec.configure do |config|
   config.before(:each) do
     config.include Capybara::DSL
-    Capybara.default_max_wait_time = 3
-    Capybara.default_driver = :selenium
-    Capybara.app_host = 'http://www.hi5.com/'
   end
 end
