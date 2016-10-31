@@ -1,4 +1,4 @@
-# Capybara and Rspec 101
+# Rpec and Capybara 101
 
 [![Build Status](https://travis-ci.org/yovasx2/RspecCapybara101.svg?branch=master)](https://travis-ci.org/yovasx2/RspecCapybara101)
 [![Code Climate](https://codeclimate.com/github/yovasx2/RspecCapybara101/badges/gpa.svg)](https://codeclimate.com/github/yovasx2/RspecCapybara101)
@@ -46,7 +46,7 @@ In order to execute this project you need to install:
 
 1. Clone the repo
 
-    	$ git clone https://github.com/yovasx2/RspecCapybara101
+    	$ git clone https://github.com/yovasx2/rspec-capybara-101
 
 2. Move into it and install dependencies
 
