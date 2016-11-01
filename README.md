@@ -1,6 +1,6 @@
 # Rpec and Capybara 101
 
-[![Build Status](https://travis-ci.org/yovasx2/RspecCapybara101.svg?branch=master)](https://travis-ci.org/yovasx2/RspecCapybara101)
+[![Build Status](https://travis-ci.org/yovasx2/rspec-capybara-101.svg?branch=master)](https://travis-ci.org/yovasx2/rspec-capybara-101)
 [![Code Climate](https://codeclimate.com/github/yovasx2/RspecCapybara101/badges/gpa.svg)](https://codeclimate.com/github/yovasx2/RspecCapybara101)
 
 ## Content
