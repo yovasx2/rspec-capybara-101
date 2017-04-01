@@ -18,6 +18,7 @@
 * [License](#license)
 
 <a name="description"/>
+
 ## Description
 
 A small example from scratch with acceptance tests on http://www.hi5.com using:
@@ -31,6 +32,7 @@ A small example from scratch with acceptance tests on http://www.hi5.com using:
 This project was created in order to show some examples about the use of previous technologies without rails project. The main purpose is to help Ruby QA automations to create, design a mantain a simple project to test a website. 
 
 <a name="requirements"/>
+
 ## Requirements
 
 In order to execute this project you need to install: 
@@ -42,6 +44,7 @@ In order to execute this project you need to install:
 * [Firefox browser](https://www.mozilla.org/en-US/firefox/new/)
 
 <a name="run-project"/>
+
 ## Run project
 
 1. Clone the repo
@@ -58,6 +61,7 @@ In order to execute this project you need to install:
 
 
 <a name="contribute"/>
+
 ## Contribute
 
 You can contribute to this project in many forms:
@@ -69,6 +73,7 @@ You can contribute to this project in many forms:
 * Adding [features](https://github.com/yovasx2/RspecCapybara101/pulls) (examples)
 
 <a name="author"/>
+
 ## Author
 
 1. Giovanni Alberto García 
@@ -79,6 +84,7 @@ You can contribute to this project in many forms:
     * [github.com/yovasx2](http://github.com/yovasx2)
 
 <a name="license"/>
+
 ## License
 
 [MIT License](http://choosealicense.com/licenses/mit/)
