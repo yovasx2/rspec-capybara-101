@@ -78,8 +78,7 @@ You can contribute to this project in many forms:
 
 1. Giovanni Alberto García 
 
-    * <a href="mailto:delirable@gmail.com">
-    delirable@gmail.com</a>
+    * <a href="mailto:delirable@gmail.com">delirable@gmail.com</a>
 
     * [github.com/yovasx2](http://github.com/yovasx2)
 
