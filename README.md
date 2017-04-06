@@ -49,15 +49,15 @@ In order to execute this project you need to install:
 
 1. Clone the repo
 
-	    $ git clone https://github.com/yovasx2/rspec-capybara-101
+	   $ git clone https://github.com/yovasx2/rspec-capybara-101
 
 2. Move into it and install dependencies
 
-	    $ cd RspecCapybara101 && bundle install
+	   $ cd RspecCapybara101 && bundle install
 
 3. Execute tests
 
-	    $ rspec
+	   $ rspec
 
 
 <a name="contribute"/>
