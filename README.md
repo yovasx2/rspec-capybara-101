@@ -66,11 +66,11 @@ In order to execute this project you need to install:
 
 You can contribute to this project in many forms:
 
-* [Reporting bugs](https://github.com/yovasx2/RspecCapybara101/issues)
+* [Reporting bugs](https://github.com/yovasx2/rspec-capybara-101/issues)
 
-* [Writing issues](https://github.com/yovasx2/RspecCapybara101/issues)
+* [Writing issues](https://github.com/yovasx2/rspec-capybara-101/issues)
 
-* Adding [features](https://github.com/yovasx2/RspecCapybara101/pulls) (examples)
+* Adding [features](https://github.com/yovasx2/rspec-capybara-101/pulls) (examples)
 
 <a name="author"/>
 
