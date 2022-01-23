@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FooterNavigationBar
   include Capybara::DSL
 
@@ -11,10 +13,6 @@ class FooterNavigationBar
 
   def click_jobs
     menu_container.click_link 'Jobs'
-  end
-
-  def click_advertise
-    menu_container.click_link 'Advertise'
   end
 
   def click_privacy
@@ -35,14 +33,12 @@ class FooterNavigationBar
 
   private
 
-  def menu_container
+  def menu_container(&block)
     css_selector = '.footer_nav'
     if block_given?
-      within css_selector do
-        yield
-      end
+      within css_selector, &block
     else
-      find (css_selector)
+      find(css_selector)
     end
   end
 end
