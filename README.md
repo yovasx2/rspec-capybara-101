@@ -37,11 +37,13 @@ This project was created in order to show some examples about the use of previou
 
 In order to execute this project you need to install: 
 
-* [Ruby 2.2.3](https://www.ruby-lang.org/es/news/2015/08/18/ruby-2-2-3-released/)
+* recent ruby (preferably in [rbenv](https://github.com/rbenv/rbenv) or RVM)
 
   You can check this with `ruby -v`
 
 * [Firefox browser](https://www.mozilla.org/en-US/firefox/new/)
+* [geckodriver](https://github.com/mozilla/geckodriver)
+  * e.g. on mac: `brew install geckodriver`
 
 <a name="run-project"/>
 
@@ -49,15 +51,15 @@ In order to execute this project you need to install:
 
 1. Clone the repo
 
-	   $ git clone https://github.com/yovasx2/rspec-capybara-101
+       $ git clone https://github.com/yovasx2/rspec-capybara-101
 
 2. Move into it and install dependencies
 
-	   $ cd RspecCapybara101 && bundle install
+       $ cd RspecCapybara101 && bundle install
 
-3. Execute tests
+3Execute tests
 
-	   $ rspec
+       $ rspec ./
 
 
 <a name="contribute"/>
